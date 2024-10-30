@@ -1,0 +1,336 @@
+@import url('https://fonts.cdnfonts.com/css/tt-norms');
+body {
+    margin: 20px;
+    @font-face {
+        font-family: "TT Norms";
+    
+    }
+}
+
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto; 
+    padding-left: 150px; 
+}
+
+.color {
+    background-color: rgba(0, 198, 94, 1);
+    width: 100%; 
+    height: 6px;
+    margin-top: -20px;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.texts {
+    display: flex;
+    gap: 40px; 
+    margin-top: -30px; 
+    margin-left: 120px; 
+    .texts1{
+    font-family: "TT Norms";
+    font-size: 15px;
+    font-weight: 400;
+    }
+    .texts2{
+        font-family: "TT Norms";
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+.texts p {
+    color: rgba(54, 58, 69, 1); 
+    margin: 0; 
+}
+
+.texts3 {
+    background-color: rgba(0, 198, 94, 0.3);
+    width: 205px; 
+    height: 60.92px; 
+    margin-top: -60px;
+    margin-left: 430px;
+
+}
+.texts3 p{
+    color: rgba(54, 58, 69, 1); 
+    font-family: "TT Norms"; 
+    font-size: 14px; 
+    font-weight: 700; 
+    text-align: center;
+    padding-top: 25px;
+}
+.styled_hr1{
+    background-color: #00C65E;
+    position: relative;
+    width: 205px;
+    height: 2px;
+    border: none;
+    margin-top: -0px;
+    margin-left: 430px;
+}
+.extra{
+    margin-top: -50px; 
+    margin-left: 660px; 
+    color: rgba(54, 58, 69, 1); 
+    font-family: "TT Norms";
+    font-weight: 100;
+}
+
+.moscow{
+    font-family: "TT Norms";
+    font-size: 14px;
+    position: absolute;
+    color: rgba(54, 58, 69, 1);
+    font-weight: 400;
+    margin-top: -60px;
+    margin-left: 950px;
+    }
+
+.register{
+    font-family: "TT Norms";
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(54, 58, 69, 1);
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 1100px;
+}
+.styled_hr{
+    background-color: rgba(218, 220, 220, 1);
+    width: 1490px;
+    height: 1.5px;
+    border: none;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -150px;
+}
+.goods {
+    background-color: #F7F7F7;
+    width: 1490px; 
+    height: 50px;
+    margin-top: 15px;
+    margin-left: -150px;
+}
+.catalog{
+    color: rgba(0, 198, 94, 1);
+    font-family: "TT Norms";
+    font-size: 14px;
+    padding-top:5px;
+    margin-left: 175px;
+}
+.delivery{
+    color: #363A45;
+    font-family: "TT Norms";
+    font-size: 14px;
+    position: absolute;
+    margin-top: -47px;
+    margin-left: 365px;
+}
+.buy{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 730px;
+    width: 300px;
+    height: 30px;
+    background-color:rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 18px;
+   }
+.buy p{
+    font-family: "TT Norms";
+    font-size: 10px;
+    font-weight: 200;
+    color: rgba(54, 58, 69, 1);
+    margin-left: -160px;
+}
+.buy img{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin-top: -23px;
+    margin-left: -135px;
+   }
+.nayti{
+    background-color: rgba(218, 220, 220, 0.5);
+    border: none;
+    width: 89px;
+    height: 30px;
+    border-radius: 18px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 18px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 950px;
+}
+.nayti p{
+    font-family: "TT Norms";
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(54, 58, 69, 1);
+    margin-top: 5px;
+}
+.help{
+    font-family: "TT Norms";
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(54, 58, 69, 1);
+    margin-left: 1140px;
+    margin-top: -33px;
+}
+.styled_hr2{
+    background-color: rgba(218, 220, 220, 1);
+    width: 1490px;
+    height: 1.5px;
+    border: none;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -0px;
+} 
+#intro {
+    background: linear-gradient(to right, rgba(255, 183, 98, 0.41), rgba(255, 255, 255, 0.26), rgba(204, 239, 219, 1));
+    width: 100%;
+    height: 390px;
+    margin-top: 50px;
+    border-radius: 4px;
+    border:1px dashed;
+    position: relative;
+    border-spacing: 1px;
+    border-color: dimgrey;
+    border-width: 2px;
+}
+.discount{
+    margin-top: -30px;
+}
+.discount h3 {  
+    color:#FFB762;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 60px;
+    margin-top: 120px;
+    font-family: "TT Norms";
+}
+
+.discount img{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 250px;
+}
+.samsung{
+    font-family: "TT Norms";
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(255, 183, 98, 1);
+    margin-left: 270px;
+    margin-top: -10px;
+}
+.podrobnee{
+    background-color: #00C65E;
+    border-radius: 10px;
+    border: none;
+    width: 188px;
+    height: 40px;
+    font-family: "TT Norms";
+   font-size: 14px;
+   color: rgba(255, 255, 255, 1);
+   margin-left: 60px;
+   margin-top: 20px;
+}
+.polyg{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 630px;
+}
+.blue{
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 550px;
+}
+.polyg2{
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 1080px;
+}
+.sam2{
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 950px;
+}
+.polyg3{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 1160px;
+}
+.black{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 1120px;
+}
+.polyg4{
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 800px;
+}
+.sampaper{
+    position:absolute;
+    margin-top: -140px;
+    margin-left: 860px;
+}
+.nuqta{
+    margin-top: 70px;
+    margin-left: 530px;
+}
+.introtextp{
+    width: 274px;
+    height: 35px;
+    margin-top: 70px;
+    margin-left: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "TT Norms";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;  
+}
+.menup{
+    width: 5px;
+    height: 5px;
+    margin-top: 33px;
+    margin-left: 1120px;
+    gap: 0px;
+    opacity: 0.6px;
+    font-family: "TT Norms";
+}   
+ .card1{
+    border-image: round 2px;
+}
+.card1{
+    border-image: round 2px;
+    display: flex;
+}
+.card0{
+    display: flex;
+}
+.card2{
+    display: flex;
+}
+.card3{
+    display: flex;
+  
+}
+.pbuy{
+    display: block;
+    margin-top: 280px;
+    margin-left: 60px;
+    gap: 10px;
+    }
+.tphone{
+        font-size: 15px;
+        color: #DADCDC;
+        font-family: "TT Norms";
+}
